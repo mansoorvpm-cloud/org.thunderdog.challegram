@@ -1,4 +1,4 @@
-name: Build & Sign Telegram X APK
+name
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build Signed APK
-    runs-on: ubuntu-latest
+    runs-on:
     timeout-minutes: 180
     env:
       TERM: xterm
